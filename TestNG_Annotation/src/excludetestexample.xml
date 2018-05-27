@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG_Annotation" preserve-order="true" parallel="false">
+  <test name="Test">
+    
+<classes>
+<run>
+      <class name="annotationExamples.excludetestexample"/>
+      <methods>
+      <exclude name="Regi" />
+      <include name="LogIn" />
+      </methods>
+</run>  
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

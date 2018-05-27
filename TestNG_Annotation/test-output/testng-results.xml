@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88" started-at="2018-04-16T04:13:09Z" finished-at="2018-04-16T04:13:09Z">
+    <groups>
+      <group name="use">
+        <method signature="Registration.Regi()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="Regi" class="annotationExamples.Registration"/>
+        <method signature="Registration.SetUp()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="SetUp" class="annotationExamples.Registration"/>
+      </group> <!-- use -->
+      <group name="dontuse">
+        <method signature="Registration.LogIn()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="LogIn" class="annotationExamples.Registration"/>
+        <method signature="Registration.LogOut()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="LogOut" class="annotationExamples.Registration"/>
+      </group> <!-- dontuse -->
+    </groups>
+    <test name="Default test" duration-ms="88" started-at="2018-04-16T04:13:09Z" finished-at="2018-04-16T04:13:09Z">
+      <class name="annotationExamples.Registration">
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="LogIn" duration-ms="15" started-at="2018-04-16T04:13:09Z" finished-at="2018-04-16T04:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="LogOut" duration-ms="1" started-at="2018-04-16T04:13:09Z" finished-at="2018-04-16T04:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="Regi()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="Regi" duration-ms="1" started-at="2018-04-16T04:13:09Z" finished-at="2018-04-16T04:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regi -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:annotationExamples.Registration@33f88ab]" name="SetUp" duration-ms="2" started-at="2018-04-16T04:13:09Z" finished-at="2018-04-16T04:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+      </class> <!-- annotationExamples.Registration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
